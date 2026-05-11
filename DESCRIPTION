@@ -1,0 +1,10 @@
+Package: grendelshiny
+Type: Package
+Title: Shared Styling for Grendel Shiny Apps
+Version: 0.1.0
+Authors@R: person("Rolf", "Mblindgren", email = "roffe@example.com", role = c("aut", "cre"))
+Description: Shared CSS helpers for Grendel Shiny apps.
+License: GPL-3
+Encoding: UTF-8
+Imports: htmltools
+RoxygenNote: 7.3.2
