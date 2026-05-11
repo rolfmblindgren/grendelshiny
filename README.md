@@ -2,11 +2,35 @@
 
 Shared styling for Grendel Shiny apps.
 
-## Use
+This package holds the common visual layer used across the Grendel Shiny apps.
+The idea is simple: keep the shared look in one place, then let each app add its
+own small local overrides on top.
+
+## What it provides
+
+- a shared turquoise-dark base theme
+- common hero, panel, button, tab, slider, and dropdown styling
+- a single helper for loading the shared CSS from `inst/grendelshiny.css`
+
+## How to use it
+
+Load the shared CSS before any app-specific CSS:
 
 ```r
 grendelshiny::grendelshiny_css()
+includeCSS("www/custom.css")
 ```
 
-Load it before any app-specific CSS so local files can override details when needed.
+If your app uses another local stylesheet, keep `grendelshiny_css()` first so
+the local file can override details where needed.
+
+## Where it fits
+
+This package is meant for the small family of Grendel apps that should feel
+visually related without copying the same CSS into every repo.
+
+## Local development
+
+The package lives in `~/src/R/grendelshiny` and is used directly from the local
+library during development.
 
