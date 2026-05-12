@@ -1,1 +1,2 @@
 export(grendelshiny_css)
+export(grendelshiny_js)

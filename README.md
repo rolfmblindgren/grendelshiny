@@ -10,7 +10,8 @@ own small local overrides on top.
 
 - a shared turquoise-dark base theme
 - common hero, panel, button, tab, slider, and dropdown styling
-- a single helper for loading the shared CSS from `inst/www/custom.css`
+- a small shared JS helper for selectize menus and button stacking
+- helpers for loading the shared assets from `inst/www/custom.css` and `inst/www/custom.js`
 
 ## How to use it
 
@@ -18,6 +19,7 @@ Load the shared CSS before any app-specific CSS:
 
 ```r
 grendelshiny::grendelshiny_css()
+grendelshiny::grendelshiny_js()
 includeCSS("www/custom.css")
 ```
 
@@ -33,4 +35,3 @@ visually related without copying the same CSS into every repo.
 
 The package lives in `~/src/R/grendelshiny` and is used directly from the local
 library during development.
-
