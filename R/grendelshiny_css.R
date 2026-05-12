@@ -1,5 +1,5 @@
 grendelshiny_css <- function() {
-  htmltools::includeCSS(system.file("grendelshiny.css", package = "grendelshiny"))
+  htmltools::includeCSS(system.file("www/custom.css", package = "grendelshiny"))
 }
 
 # Local Variables:

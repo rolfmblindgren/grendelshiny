@@ -10,7 +10,7 @@ own small local overrides on top.
 
 - a shared turquoise-dark base theme
 - common hero, panel, button, tab, slider, and dropdown styling
-- a single helper for loading the shared CSS from `inst/grendelshiny.css`
+- a single helper for loading the shared CSS from `inst/www/custom.css`
 
 ## How to use it
 
