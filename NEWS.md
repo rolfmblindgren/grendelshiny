@@ -1,3 +1,16 @@
+# grendelshiny 0.2.0
+
+## Visual redesign
+
+- New light colour palette: airy turquoise-and-emerald theme replacing the
+  previous dark background.
+- Backgrounds are now light (`#f0fdfb` → `#f0fdf4`) with frosted glass cards.
+- Accent colours updated to teal-600 (`#0d9488`) and emerald-500 (`#10b981`).
+- Buttons now use a teal → emerald gradient with white text.
+- Form controls use a near-white background with a subtle teal border.
+- All hardcoded colour values updated; `--text` is now dark (`#0d2420`) for
+  legibility on light surfaces.
+
 # grendelshiny 0.1.0
 
 ## First release

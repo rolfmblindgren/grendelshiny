@@ -49,17 +49,17 @@ system.  Use these class names in your UI.
 
 | Variable | Value | Use |
 |----------|-------|-----|
-| `--bg-0` | `#031817` | Darkest background |
-| `--bg-1` | `#052522` | Medium background |
-| `--bg-2` | `#073530` | Lightest background |
-| `--accent` | `#76e9d9` | Primary turquoise |
-| `--accent-2` | `#b6fff4` | Secondary turquoise |
-| `--text` | `#edfefb` | Body text |
-| `--muted` | `#afcfc9` | Secondary/muted text |
-| `--border` | `rgba(153,247,235,0.12)` | Subtle borders |
-| `--border-strong` | `rgba(153,247,235,0.20)` | Emphasized borders |
-| `--surface` | `rgba(6,24,23,0.74)` | Card backgrounds |
-| `--shadow` | `0 24px 80px rgba(2,11,10,0.48)` | Depth shadow |
+| `--bg-0` | `#f0fdfb` | Light turquoise background |
+| `--bg-1` | `#f8fffd` | Near-white background |
+| `--bg-2` | `#f0fdf4` | Light emerald background |
+| `--accent` | `#0d9488` | Primary teal (teal-600) |
+| `--accent-2` | `#10b981` | Emerald accent (emerald-500) |
+| `--text` | `#0d2420` | Dark teal body text |
+| `--muted` | `#4d7b74` | Muted secondary text |
+| `--border` | `rgba(13,148,136,0.14)` | Subtle borders |
+| `--border-strong` | `rgba(13,148,136,0.26)` | Emphasized borders |
+| `--surface` | `rgba(255,255,255,0.84)` | Frosted glass card backgrounds |
+| `--shadow` | `0 24px 80px rgba(13,148,136,0.10)` | Depth shadow |
 
 ### Layout classes
 
