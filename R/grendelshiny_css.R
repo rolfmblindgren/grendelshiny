@@ -1,6 +1,6 @@
 #' Include the shared Grendel CSS theme
 #'
-#' Inserts the shared turquoise-dark base stylesheet into the Shiny UI.
+#' Inserts the shared warm-cream/turquoise base stylesheet into the Shiny UI.
 #' Call this before any app-specific CSS so local stylesheets can override
 #' individual rules.
 #'

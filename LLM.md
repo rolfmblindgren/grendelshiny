@@ -13,7 +13,7 @@ a bundled CSS file and a bundled JavaScript file into the Shiny UI.
 
 ### `grendelshiny_css()`
 
-Inserts the shared turquoise-dark base stylesheet into the page.  Takes no
+Inserts the shared warm-cream/turquoise base stylesheet into the page.  Takes no
 arguments.  Call this **before** any app-specific CSS so that local stylesheets
 can override individual rules.
 
@@ -49,15 +49,18 @@ system.  Use these class names in your UI.
 
 | Variable | Value | Use |
 |----------|-------|-----|
-| `--bg-0` | `#f0fdfb` | Light turquoise background |
-| `--bg-1` | `#f8fffd` | Near-white background |
-| `--bg-2` | `#f0fdf4` | Light emerald background |
-| `--accent` | `#0d9488` | Primary teal (teal-600) |
-| `--accent-2` | `#10b981` | Emerald accent (emerald-500) |
-| `--text` | `#0d2420` | Dark teal body text |
-| `--muted` | `#4d7b74` | Muted secondary text |
-| `--border` | `rgba(13,148,136,0.14)` | Subtle borders |
-| `--border-strong` | `rgba(13,148,136,0.26)` | Emphasized borders |
+| `--bg-0` | `#f7efe4` | Warm cream background |
+| `--bg-1` | `#eefaf8` | Soft turquoise background |
+| `--bg-2` | `#f8f0e6` | Warm cream background (alt) |
+| `--surface` | `rgba(255,251,244,0.82)` | Panel/card surface |
+| `--surface-strong` | `rgba(255,255,255,0.94)` | Emphasized surface |
+| `--accent` | `#6de9dc` | Light turquoise accent |
+| `--accent-2` | `#0f5c51` | Dark forest green accent |
+| `--text` | `#0f2421` | Dark body text |
+| `--muted` | `rgba(15,36,33,0.74)` | Muted secondary text |
+| `--border` | `rgba(15,92,81,0.16)` | Subtle borders |
+| `--border-strong` | `rgba(15,92,81,0.28)` | Emphasized borders |
+| `--shadow` | `0 24px 60px rgba(15,36,33,0.12)` | Card drop shadow |
 | `--surface` | `rgba(255,255,255,0.84)` | Frosted glass card backgrounds |
 | `--shadow` | `0 24px 80px rgba(13,148,136,0.10)` | Depth shadow |
 
