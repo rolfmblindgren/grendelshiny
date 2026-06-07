@@ -1,13 +1,14 @@
 Package: grendelshiny
 Type: Package
 Title: Shared Styling for Grendel Shiny Apps
-Version: 0.2.1
+Version: 0.3.0
 Authors@R: person(given = "Rolf", family = "Lindgren", email = "rolf@grendel.no", role = c("aut", "cre"))
-Description: Shared CSS and JavaScript helpers that give a family of Grendel
-    Shiny apps a consistent turquoise-dark visual theme. Provides a base design
-    system (layout, typography, form controls, sliders, tabs) and a small
-    JavaScript utility for managing selectize dropdown state.
+Description: Shared CSS, JavaScript, and brand assets that give a family of
+    Grendel Shiny apps a consistent turquoise-dark visual theme. Provides a
+    base design system (layout, typography, form controls, sliders, tabs), a
+    small JavaScript utility for managing selectize dropdown state, and the
+    canonical Grendel logo mark as a self-contained helper.
 License: GPL-3
 Encoding: UTF-8
-Imports: htmltools
+Imports: htmltools, base64enc
 Config/roxygen2/version: 8.0.0

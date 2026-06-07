@@ -1,3 +1,14 @@
+# grendelshiny 0.3.0
+
+## New feature
+
+- `grendel_mark()` — the canonical Grendel "G" logo mark, returned as a
+  self-contained `<img>` tag (the PNG is embedded as a base64 data URI).
+  Drop it straight into a `.hero-mark` container; no need to copy the image
+  into each app's `www/` directory anymore. One canonical asset, shipped
+  with the package, in the same spirit as `grendelshiny_css()`/
+  `grendelshiny_js()`.
+
 # grendelshiny 0.2.1
 
 ## Bug fix
