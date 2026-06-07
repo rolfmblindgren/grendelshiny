@@ -1,7 +1,7 @@
 Package: grendelshiny
 Type: Package
 Title: Shared Styling for Grendel Shiny Apps
-Version: 0.2.0
+Version: 0.2.1
 Authors@R: person(given = "Rolf", family = "Lindgren", email = "rolf@grendel.no", role = c("aut", "cre"))
 Description: Shared CSS and JavaScript helpers that give a family of Grendel
     Shiny apps a consistent turquoise-dark visual theme. Provides a base design

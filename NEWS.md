@@ -1,3 +1,12 @@
+# grendelshiny 0.2.1
+
+## Bug fix
+
+- `.hero-mark` now centres its content and scales `<img>`/`<svg>` children to
+  fit (`object-fit: contain`) instead of clipping them. Previously a logo
+  image taller/wider than the fixed 42×42 box was cut off by
+  `overflow: hidden`.
+
 # grendelshiny 0.2.0
 
 ## Visual redesign
