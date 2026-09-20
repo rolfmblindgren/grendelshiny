@@ -183,7 +183,8 @@ p {
     var(--surface);
 }
 
-.hero-panel p {
+.hero-panel p,
+.hero-panel li {
   color: var(--text);
   margin-bottom: 0.9rem;
 }
