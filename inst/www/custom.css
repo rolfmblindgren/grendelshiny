@@ -7,7 +7,7 @@
   --border: rgba(15, 92, 81, 0.16);
   --border-strong: rgba(15, 92, 81, 0.28);
   --text: #0f2421;
-  --muted: rgba(15, 36, 33, 0.74);
+  --muted: rgba(15, 36, 33, 0.88);
   --accent: #6de9dc;
   --accent-soft: rgba(109, 233, 220, 0.16);
   --accent-2: #0f5c51;
@@ -318,7 +318,7 @@ p {
 .main-card p,
 .sidebar-card label,
 .main-card label {
-  color: var(--muted);
+  color: var(--text);
 }
 
 #tabs {
