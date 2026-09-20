@@ -184,7 +184,7 @@ p {
 }
 
 .hero-panel p {
-  color: var(--muted);
+  color: var(--text);
   margin-bottom: 0.9rem;
 }
 
@@ -196,7 +196,7 @@ p {
   max-width: 58ch;
   margin: 0;
   font-size: 1.08rem;
-  color: var(--muted);
+  color: var(--text);
 }
 
 .eyebrow {
